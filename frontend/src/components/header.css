@@ -1,0 +1,24 @@
+.header{
+    background-color: black;
+    height:100px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.headerTitle{
+    color:white;
+}
+.loginRegister{
+    display:flex;
+    margin-top:10px;
+
+}
+.loginRegister-button{
+    background-color: rgb(174, 230, 102);
+    margin:2px;
+    width:90px;
+    color:blue;
+    font-weight: 700;
+
+}

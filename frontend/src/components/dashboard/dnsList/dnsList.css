@@ -1,0 +1,60 @@
+.dns-ul{
+}
+.dns-list{
+    margin:14px;
+    background-color: gainsboro;
+    list-style-type: none;
+    padding:10px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.dns-list-container{
+    margin:5px;
+    padding:10px;
+    
+}
+.dns-list-name{
+    font-weight: 700;
+    font-size: 20px;
+}
+.dns-list-type{
+    font-size: 18px;
+    font-weight: 500;
+    margin:5px;
+}
+.dns-list-ttl{
+    font-size: 18px;
+    font-weight: 500;
+    margin:5px;
+}
+.dns-list-rr{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px
+}
+
+.dns-list-rrDiv{
+    max-width:500px;
+}
+
+.noRecord{
+    text-align: center;
+    margin:30px;
+    font-size:22px;
+}
+@media(min-width:800px){
+    .dns-list{
+        margin:14px;
+        background-color: gainsboro;
+        list-style-type: none;
+        padding:10px;
+        display: flex;
+       
+        flex-direction: row;
+        justify-content: space-between;
+    }
+  
+
+}
